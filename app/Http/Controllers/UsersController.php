@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class UsersController extends Controller
 {
     public function create(){
-        return view('users/create')
+        return view('users/create');
     }
 }
